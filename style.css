@@ -1,0 +1,85 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+   
+}
+body{
+    background-image: url(pic3.jpg);
+    background-size: cover;
+    min-height: 100vh;
+
+
+   
+}
+
+.formbase{
+    width: 350px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+  
+ 
+}
+.formbase h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    
+}
+.formbase form p{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.formbase form label{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.formbase form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+/* .formbase button{
+    background-color: cadetblue;
+    font-size: 18px;
+    font-weight: bold; 
+    margin: 20px 0; 
+    padding: 10px 50px 15px 0px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    color: blue;
+    text-align: center;
+}
+.formbase .btn-boxl{
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.formbase .btn-boxr{
+    margin-top: -80px;
+    margin-left: 300px;
+} */
+.formbase form button{
+    background: cadetblue;
+    height: 45px;
+    width: 100px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.formbase form .btn-boxl{
+    margin: 13px 450px 0px 5px;
+}
